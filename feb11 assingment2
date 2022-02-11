@@ -1,0 +1,32 @@
+input:
+
+no=int(input('enter sno:'))#23
+sname=input('enter sname:')#lucky
+s1=int(input('s1 marks:'))#91
+s2=int(input('s2 marks:'))#81
+s3=int(input('s3 marks:'))#71
+s4=int(input('s4 marks:'))#61
+s5=int(input('s5 marks:'))#51
+s6=int(input('s6 marks:'))#35
+sum =s1+s2+s3+s4+s5+s6
+avg=sum/6
+if (avg>=91):
+  print('O grade')
+elif(avg>=81):
+  print('A grade')
+elif(avg>=71):
+  print('B grade')
+elif(avg>=61):
+  print('C grade')
+elif(avg>=51):
+  print('D grade')
+elif(avg>=35):
+  print('Pass')
+else:
+  print('Fail')
+  
+  output:
+  enter sno:23
+enter sname:lucky
+s1 marks:91
+> 91
